@@ -20,3 +20,7 @@
 - usuario_id (FK)
 - servico_id (FK)
 - status
+## Regras de Negócio
+- Um horário não pode ter dois agendamentos ativos
+- Apenas administradores podem cadastrar serviços
+- Um agendamento pertence a um cliente
