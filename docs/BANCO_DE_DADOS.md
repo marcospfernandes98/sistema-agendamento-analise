@@ -1,13 +1,22 @@
-# Modelagem Inicial
+# Modelagem do Banco de Dados
 
 ## usuarios
-- id
+- id (PK)
 - nome
 - email
 - senha
+- tipo (admin | cliente)
+
+## servicos
+- id (PK)
+- nome
+- duracao_minutos
+- preco
 
 ## agendamentos
-- id
+- id (PK)
 - data
 - hora
-- usuario_id
+- usuario_id (FK)
+- servico_id (FK)
+- status
